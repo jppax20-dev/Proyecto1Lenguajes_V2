@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.202430221.cunoc</groupId>
-    <artifactId>PromptZAL_AnalizadorLexico</artifactId>
+    <groupId>com.ipc1</groupId>
+    <artifactId>AFD_Proyecto1_Lenguajes</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>21</maven.compiler.release>
-        <!-- Esta propiedad guarda la ruta de tu clase principal -->
-        <exec.mainClass>com.cunoc.promptzal_analizadorlexico.PromptZAL_AnalizadorLexico</exec.mainClass>
+        <maven.compiler.release>25</maven.compiler.release>
+        <exec.mainClass>com.ipc1.afd_proyecto1_lenguajes.AFD_Proyecto1_Lenguajes</exec.mainClass>
     </properties>
-
-    <build>
-        <plugins>
-            <!-- Plugin encargado de empaquetar el .jar -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <!-- Le decimos a Maven que agregue la clase principal al Manifiesto -->
-                            <mainClass>${exec.mainClass}</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
